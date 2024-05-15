@@ -1,0 +1,158 @@
+
+
+
+.content {
+	width: 100%;
+	 max-width: 750px;
+	margin: 0px auto;
+	padding: 0;
+	position: relative;
+	display: block;
+	border-style: solid;
+	text-align: left;
+
+
+}
+
+
+.padder {
+	padding: 1.0rem;
+}
+
+
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; max-width: 800px; }
+	#Intro{background:#fff; clear:left; font:18px Helvetica,Arial,sans-serif; max-width: 960px;}
+
+.email,  {
+   background:#fff; clear:left; font:22px Helvetica,Arial,sans-serif; max-width: 960px;
+
+}
+
+
+
+h2, h1, h3{
+text-align:center;
+}
+
+
+   img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    border-radius: 4px;
+	}
+	
+    p {
+      
+      width: auto;
+        
+        
+    }
+    .indented {
+  padding-left: 10pt;
+  padding-right: 10pt;
+}
+    
+.featured {
+
+  display: block;
+
+
+  text-align:center;
+    
+}
+
+.btn-group {
+    display: block;
+  text-align:center;  
+
+}
+
+.btn-group .button {
+  background-color: #A9A9A9; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.btn-group .button:hover {
+  background-color: #696969;
+}
+    
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  text-align:center;
+  font:24px Helvetica,Arial,sans-serif;
+}
+.container {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+    
+/* Video */
+.video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+	margin-top: 10px;
+
+}
+.video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
+ form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+ 
+ input {border: 1px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+ input:focus {border-color:#333;}
+ .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; transition: all 0.23s ease-in-out 0s; color: #FFFFFF; cursor: pointer; display: inline-block;  font-weight: normal; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding: 0 22px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto; }
+ .button:hover {background-color:#777;}   
+ .clear {clear:both; }
+
+
+/*ifMobile*/
+
+@media (pointer:none), (pointer:coarse) {
+    .content {
+       max-width: 960px; 
+    }
+    .button {
+
+
+    } 
+}
+
+
+   .btn-disable
+        { 
+
+clear:both;  border: 0 none; border-radius:4px; transition: all 0.23s ease-in-out 0s; ; cursor: pointer; display: inline-block;  font-weight: normal; height: 32px; line-height: 32px; margin: 0 5px 10px 0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;
+  font-size: 24px;
+            padding: 15px 32px;
+     
+             cursor: not-allowed;
+        pointer-events: none;
+             background-color: 	#FFFF; color: #000000
+            
+        }
+
+
+
+
